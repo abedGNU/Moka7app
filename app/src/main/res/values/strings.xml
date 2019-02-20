@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Moka7 app</string>
+    <string name="menu_settings">Settings</string>
 </resources>

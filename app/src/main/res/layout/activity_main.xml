@@ -14,10 +14,37 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="148dp"
         android:layout_marginLeft="148dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="208dp"
         android:onClick="readDB"
         android:text="Read DB"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSetIp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSetIp" />
+
+    <EditText
+        android:id="@+id/textViewIPaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="217dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSetIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="56dp"
+        android:onClick="setIP"
+        android:text="Set IP"
+        app:layout_constraintEnd_toEndOf="@+id/textViewIPaddress"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="@+id/textViewIPaddress"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIPaddress" />
 
 </android.support.constraint.ConstraintLayout>
